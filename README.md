@@ -8,6 +8,7 @@ A two-stage differential amplifier layout typically consists of a differential i
 o Designed a two-stage differential amplifier in the Schematic Editor.
 o Devices include differential pair, current mirror with appropriate sizing.     
 o Verified schematic connectivity and saved for simulation and layout.
+
 ![Inverter Schematic]()
 
 
