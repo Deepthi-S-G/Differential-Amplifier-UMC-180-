@@ -8,10 +8,7 @@ A two-stage differential amplifier layout typically consists of a differential i
 o Designed a two-stage differential amplifier in the Schematic Editor.
 o Devices include differential pair, current mirror with appropriate sizing.     
 o Verified schematic connectivity and saved for simulation and layout.
-![Inverter Schematic](https://github.com/Deepthi-S-G/Standard-Cell-Layout-Design-UMC-180-/blob/main/Images_of_Standard_Cell_Library/inverter%204x%20schematic.png)
-![Inverter Layout ](https://github.com/Deepthi-S-G/Standard-Cell-Layout-Design-UMC-180-/blob/main/Images_of_Standard_Cell_Library/inv%20layout.png)
-![Inverter Layout Core](https://github.com/Deepthi-S-G/Standard-Cell-Layout-Design-UMC-180-/blob/main/Images_of_Standard_Cell_Library/inv%20layout%20core.png)
-![Inverter Layout hdrc ](https://github.com/Deepthi-S-G/Standard-Cell-Layout-Design-UMC-180-/blob/main/Images_of_Standard_Cell_Library/inv%20layout%20hdrc.png)
+![Inverter Schematic]()
 
 
 # Implementation Steps of Layout
