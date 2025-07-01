@@ -31,19 +31,23 @@ o	Ensured minimal parasitic mismatch using common-centroid and interdigitated pl
 ### 3. Routing
 o	Connected all devices manually with metal layers (M1-M3) ensuring minimal crossovers.    
 o	Inserted vias, pins, and contacts with proper DRC-safe spacing.
+
 ### 4. DRC (Design Rule Check)
 o	Performed DRC verification using Cadence Assura    
-o	Result:  No DRC Errors Found
+o	No DRC Errors Found
+
+![differential amplifier DRC ](https://github.com/Deepthi-S-G/Differential-Amplifier-UMC-180-/blob/main/drc.png) 
+
 ### 5.LVS (Layout Versus Schematic) 
 o	Run LVS to ensure layout matches schematic     
 o	0 Net/Pin/Device Mismatches; Schematic and Layout match completely.
+![differential amplifier LVS ](https://github.com/Deepthi-S-G/Differential-Amplifier-UMC-180-/blob/main/lvs.png) 
+
 ### 6.Parasitic Extraction (PEX) 
 o	Extracted layout parasitics including capacitances and resistances.       
 o	Generated extracted view and netlist with parasitic elements.    
 o	This data is used for post-layout simulation to evaluate real-world performance degradation due to layout parasitics.
-### 5.LVS (Layout Versus Schematic) 
-o	Run LVS to ensure layout matches schematic     
-o	0 Net/Pin/Device Mismatches; Schematic and Layout match completely.
+
 ### 7.Post-Layout Simulation 
 o	Used the extracted view generated after LVS and PEX for post-layout simulation.     
 o	Imported parasitic netlist into ADE (Analog Design Environment) and ran transient, DC, and AC simulations        
