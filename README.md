@@ -9,7 +9,7 @@ o Designed a two-stage differential amplifier in the Schematic Editor.
 o Devices include differential pair, current mirror with appropriate sizing.     
 o Verified schematic connectivity and saved for simulation and layout.
 
-![Inverter Schematic]()
+![differential amplifier schematic](https://github.com/Deepthi-S-G/Differential-Amplifier-UMC-180-/blob/main/differential%20amplifier%20schematic.png)
 
 
 # Implementation Steps of Layout
@@ -17,10 +17,16 @@ o Verified schematic connectivity and saved for simulation and layout.
 o	Created floorplan to allocate placement regions for the blocks (input pair, current mirror, output stage).        
 o	Ensured symmetry and optimal routing paths were considered.    
 o	Defined boundary and reserved area for routing and supply rails.
+
+![differential amplifier Floorplan](https://github.com/Deepthi-S-G/Differential-Amplifier-UMC-180-/blob/main/Floorplan.png) 
+
+
 ### 	2. Device Placement 
 o	Placed transistors and matched devices (M1, M2) symmetrically.        
 o	Grouped current mirrors and biasing transistors.    
 o	Ensured minimal parasitic mismatch using common-centroid and interdigitated placement where needed. 
+![differential amplifier Placement](https://github.com/Deepthi-S-G/Differential-Amplifier-UMC-180-/blob/main/Placement.png) 
+
 
 ### 3. Routing
 o	Connected all devices manually with metal layers (M1-M3) ensuring minimal crossovers.    
