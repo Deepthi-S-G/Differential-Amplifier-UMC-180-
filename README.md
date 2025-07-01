@@ -3,10 +3,17 @@
 ### Technology: UMC 180nm 
 ### Tool: Cadence Virtuoso
 A two-stage differential amplifier layout typically consists of a differential input stage, a gain stage, and an output stage, often with a current mirror for biasing and compensation for stability
+
 ### Schematic Design (From the designer) 
 o Designed a two-stage differential amplifier in the Schematic Editor.
 o Devices include differential pair, current mirror with appropriate sizing.     
 o Verified schematic connectivity and saved for simulation and layout.
+![Inverter Schematic](https://github.com/Deepthi-S-G/Standard-Cell-Layout-Design-UMC-180-/blob/main/Images_of_Standard_Cell_Library/inverter%204x%20schematic.png)
+![Inverter Layout ](https://github.com/Deepthi-S-G/Standard-Cell-Layout-Design-UMC-180-/blob/main/Images_of_Standard_Cell_Library/inv%20layout.png)
+![Inverter Layout Core](https://github.com/Deepthi-S-G/Standard-Cell-Layout-Design-UMC-180-/blob/main/Images_of_Standard_Cell_Library/inv%20layout%20core.png)
+![Inverter Layout hdrc ](https://github.com/Deepthi-S-G/Standard-Cell-Layout-Design-UMC-180-/blob/main/Images_of_Standard_Cell_Library/inv%20layout%20hdrc.png)
+
+
 # Implementation Steps of Layout
 ### 1. Floor planning
 o	Created floorplan to allocate placement regions for the blocks (input pair, current mirror, output stage).        
@@ -41,7 +48,6 @@ o	Compared pre-layout vs post-layout performance metrics.
 ## Outcome
 •	Achieved a DRC/LVS-clean layout of a two-stage differential amplifier.       
 •	Applied key layout techniques such as symmetry, matching, and common-centroid placement.
-#### Differential Amplifier Schematic
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+
 
